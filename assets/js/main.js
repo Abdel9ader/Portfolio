@@ -149,26 +149,3 @@
             localStorage.setItem('selected-theme', getCurrentTheme())
             localStorage.setItem('selected-icon', getCurrentIcon())
         })
-    </script>
-
-    <!--=================== Animated text ===============-->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        var typed = new Typed(".auto-input", {
-            strings: [
-                "a Frontend Developer.",
-                "a student at FCI.",
-            ],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
-        });
-    </script>
-
-    <!--=================== Animate scroll js ===============-->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 300,
-            duration: 2000
-        });
